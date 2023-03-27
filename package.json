@@ -4,6 +4,7 @@
   "description": "A little exercise using a Star Wars API [https://swapi.dev/](https://swapi.dev/), [express.js](https://expressjs.com/) and [React](https://reactjs.org/)",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "server:dev": "npm run dev --prefix server",
     "client:dev": "npm run dev --prefix client",
     "docker:build": "docker-compose build",
@@ -19,5 +20,10 @@
   "bugs": {
     "url": "https://gitlab.com/gosolo/challenges/node-exercise/issues"
   },
-  "homepage": "https://gitlab.com/gosolo/challenges/node-exercise#readme"
+  "homepage": "https://gitlab.com/gosolo/challenges/node-exercise#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  }
 }
