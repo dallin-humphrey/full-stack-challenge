@@ -5,7 +5,7 @@ services:
     image: my-image:latest
     ports:
       - "4000:4000"
-      - '5173:5173'
+      - '9229:9229'
     volumes:
       - .:/usr/src/app:cached
     command: ['npm', 'run', 'server:dev']
